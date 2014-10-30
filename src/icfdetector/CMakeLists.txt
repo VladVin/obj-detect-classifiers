@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project( icfdetector )
+find_package( OpenCV REQUIRED )
+add_executable( fcw_detect fcw_detect.cpp )
+add_executable( fcw_train fcw_train.cpp )
+target_link_libraries( fcw_detect ${OpenCV_LIBS} )
+target_link_libraries( fcw_train ${OpenCV_LIBS} )
+SET(CMAKE_CXX_FLAGS "-std=c++11")
