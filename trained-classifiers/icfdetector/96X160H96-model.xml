@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<icfdetector>
+  <model_n_rows>40</model_n_rows>
+  <model_n_cols>40</model_n_cols>
+  <waldboost>
+    <waldboost_params>
+      <weak_count>100</weak_count>
+      <alpha>1.9999999552965164e-02</alpha></waldboost_params>
+    <waldboost_stumps>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>4.8708553314208984e+00</pos_value>
+        <neg_value>-4.1968610882759094e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.5585641860961914e+00</pos_value>
+        <neg_value>-1.9542127847671509e+00</neg_value></_>
+      <_>
+        <threshold>2490</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.3797991275787354e+00</pos_value>
+        <neg_value>-1.2008519470691681e-01</neg_value></_>
+      <_>
+        <threshold>2679</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.0025373697280884e+00</pos_value>
+        <neg_value>-2.9676464200019836e-01</neg_value></_></waldboost_stumps>
+    <waldboost_thresholds>
+      -4.1968610882759094e-01 -2.3738989830017090e+00
+      -2.4939842224121094e+00 -1.4914468526840210e+00</waldboost_thresholds></waldboost>
+  <features>
+    <_>
+      0 12 0 33 4</_>
+    <_>
+      5 0 5 0 7</_>
+    <_>
+      8 5 32 15 5</_>
+    <_>
+      17 8 27 32 5</_></features></icfdetector>
+</opencv_storage>
