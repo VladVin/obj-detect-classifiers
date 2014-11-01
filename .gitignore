@@ -4,5 +4,6 @@
 *.cmake
 *.make
 CMakeFiles
-build
+build*
 Makefile
+data
