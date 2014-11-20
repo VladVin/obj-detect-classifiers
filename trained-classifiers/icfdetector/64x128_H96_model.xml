@@ -1,0 +1,764 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<icfdetector>
+  <model_n_rows>160</model_n_rows>
+  <model_n_cols>96</model_n_cols>
+  <ftype>icf</ftype>
+  <waldboost>
+    <waldboost_params>
+      <weak_count>100</weak_count>
+      <alpha>1.9999999552965164e-02</alpha></waldboost_params>
+    <waldboost_stumps>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>4.8708553314208984e+00</pos_value>
+        <neg_value>-2.0852506160736084e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.4051194190979004e+00</pos_value>
+        <neg_value>-5.7240790128707886e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>9.9036848545074463e-01</pos_value>
+        <neg_value>-7.1381294727325439e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>9.9900907278060913e-01</pos_value>
+        <neg_value>-5.7582312822341919e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>9.7595632076263428e-01</pos_value>
+        <neg_value>-6.7651563882827759e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.0299606323242188e+00</pos_value>
+        <neg_value>-5.6745600700378418e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.1457636356353760e+00</pos_value>
+        <neg_value>-5.9267967939376831e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.0700451135635376e+00</pos_value>
+        <neg_value>-6.1716675758361816e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.1130790710449219e+00</pos_value>
+        <neg_value>-5.5510652065277100e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.2795996665954590e+00</pos_value>
+        <neg_value>-5.0890105962753296e-01</neg_value></_>
+      <_>
+        <threshold>10</threshold>
+        <polarity>1</polarity>
+        <pos_value>-3.2032139599323273e-02</pos_value>
+        <neg_value>4.8769874572753906e+00</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>8.9079499244689941e-01</pos_value>
+        <neg_value>-7.1371459960937500e-01</neg_value></_>
+      <_>
+        <threshold>-182</threshold>
+        <polarity>1</polarity>
+        <pos_value>-9.6982091665267944e-01</pos_value>
+        <neg_value>6.7412418127059937e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>8.9181172847747803e-01</pos_value>
+        <neg_value>-6.9347882270812988e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.2531470060348511e+00</pos_value>
+        <neg_value>-4.7782027721405029e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.0794982910156250e+00</pos_value>
+        <neg_value>-5.7502222061157227e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.3812731504440308e+00</pos_value>
+        <neg_value>-5.0257575511932373e-01</neg_value></_>
+      <_>
+        <threshold>3532</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.0615137815475464e+00</pos_value>
+        <neg_value>-5.7646024227142334e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.4491796493530273e+00</pos_value>
+        <neg_value>-5.6313705444335938e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.5549731254577637e+00</pos_value>
+        <neg_value>-4.9809673428535461e-01</neg_value></_>
+      <_>
+        <threshold>9</threshold>
+        <polarity>1</polarity>
+        <pos_value>-1.0877529382705688e+00</pos_value>
+        <neg_value>6.2862658500671387e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>9.4348871707916260e-01</pos_value>
+        <neg_value>-9.2972195148468018e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>9.4843357801437378e-01</pos_value>
+        <neg_value>-6.6707921028137207e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.2091861963272095e+00</pos_value>
+        <neg_value>-4.5222759246826172e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.5343538522720337e+00</pos_value>
+        <neg_value>-2.9828593134880066e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.5577187538146973e+00</pos_value>
+        <neg_value>-3.5825338959693909e-01</neg_value></_>
+      <_>
+        <threshold>40</threshold>
+        <polarity>1</polarity>
+        <pos_value>-3.8104611635208130e-01</pos_value>
+        <neg_value>2.0210888385772705e+00</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>3.0211517810821533e+00</pos_value>
+        <neg_value>1.0344767570495605e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.4968218803405762e+00</pos_value>
+        <neg_value>-2.8543150424957275e-01</neg_value></_>
+      <_>
+        <threshold>97</threshold>
+        <polarity>1</polarity>
+        <pos_value>-6.1391824483871460e-01</pos_value>
+        <neg_value>8.9715951681137085e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>9.4357615709304810e-01</pos_value>
+        <neg_value>-4.8262634873390198e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.0886957645416260e+00</pos_value>
+        <neg_value>-2.2592152655124664e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>6.8797379732131958e-01</pos_value>
+        <neg_value>-3.5908392071723938e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>5.7709914445877075e-01</pos_value>
+        <neg_value>-3.9460581541061401e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>6.3172364234924316e-01</pos_value>
+        <neg_value>-3.1419077515602112e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>6.9305586814880371e-01</pos_value>
+        <neg_value>4.5050378888845444e-02</neg_value></_>
+      <_>
+        <threshold>63</threshold>
+        <polarity>1</polarity>
+        <pos_value>-3.1410083174705505e-01</pos_value>
+        <neg_value>6.1232793331146240e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>3.2431322336196899e-01</pos_value>
+        <neg_value>9.6850991249084473e-02</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.3253458738327026e-01</pos_value>
+        <neg_value>-2.6671176776289940e-02</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.7545248568058014e-01</pos_value>
+        <neg_value>-2.3447328805923462e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.9313208758831024e-01</pos_value>
+        <neg_value>-2.3588201403617859e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.3187601566314697e-01</pos_value>
+        <neg_value>-1.0994954407215118e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.1341547369956970e-01</pos_value>
+        <neg_value>-8.2066059112548828e-02</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.7279000580310822e-01</pos_value>
+        <neg_value>-3.0694895982742310e-01</neg_value></_>
+      <_>
+        <threshold>4</threshold>
+        <polarity>1</polarity>
+        <pos_value>6.3016213476657867e-02</pos_value>
+        <neg_value>4.8993935585021973e+00</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.5627700090408325e-01</pos_value>
+        <neg_value>1.9806304574012756e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>9.8100803792476654e-02</pos_value>
+        <neg_value>-3.6017420887947083e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.6079056262969971e-01</pos_value>
+        <neg_value>-4.8191949725151062e-02</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.4476501941680908e-01</pos_value>
+        <neg_value>-5.4898736998438835e-03</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.2684217095375061e-01</pos_value>
+        <neg_value>-6.6251859068870544e-02</neg_value></_>
+      <_>
+        <threshold>5358</threshold>
+        <polarity>1</polarity>
+        <pos_value>-1.0947521775960922e-01</pos_value>
+        <neg_value>2.4823009967803955e-01</neg_value></_>
+      <_>
+        <threshold>1803</threshold>
+        <polarity>1</polarity>
+        <pos_value>-9.9207662045955658e-02</pos_value>
+        <neg_value>-7.1798786520957947e-02</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>9.9053747951984406e-02</pos_value>
+        <neg_value>-2.1192030608654022e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.4604458212852478e-01</pos_value>
+        <neg_value>1.9349728524684906e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>9.1812051832675934e-02</pos_value>
+        <neg_value>-4.9395889043807983e-01</neg_value></_>
+      <_>
+        <threshold>3348</threshold>
+        <polarity>1</polarity>
+        <pos_value>-1.8376797437667847e-01</pos_value>
+        <neg_value>-6.3817642629146576e-02</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.1538750827312469e-01</pos_value>
+        <neg_value>7.4708670377731323e-02</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.5704086422920227e-01</pos_value>
+        <neg_value>-9.7984291613101959e-02</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.3568881154060364e-01</pos_value>
+        <neg_value>-3.1431889533996582e-01</neg_value></_>
+      <_>
+        <threshold>2757</threshold>
+        <polarity>1</polarity>
+        <pos_value>-2.1086797118186951e-01</pos_value>
+        <neg_value>-1.4068585820496082e-02</neg_value></_>
+      <_>
+        <threshold>2740</threshold>
+        <polarity>1</polarity>
+        <pos_value>-2.1981647610664368e-01</pos_value>
+        <neg_value>5.8042824268341064e-02</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.2928476333618164e-01</pos_value>
+        <neg_value>-1.2926885485649109e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.3829564452171326e-01</pos_value>
+        <neg_value>1.1251511983573437e-02</neg_value></_>
+      <_>
+        <threshold>1034</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.0710366964340210e-01</pos_value>
+        <neg_value>3.3529478311538696e-01</neg_value></_>
+      <_>
+        <threshold>1816</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.4070683717727661e-01</pos_value>
+        <neg_value>3.5791286826133728e-01</neg_value></_>
+      <_>
+        <threshold>0</threshold>
+        <polarity>1</polarity>
+        <pos_value>8.6564630270004272e-02</pos_value>
+        <neg_value>-3.9829257130622864e-01</neg_value></_>
+      <_>
+        <threshold>1249</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.5773566067218781e-01</pos_value>
+        <neg_value>2.6744782924652100e-01</neg_value></_>
+      <_>
+        <threshold>1170</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.1551498621702194e-01</pos_value>
+        <neg_value>3.1192192435264587e-01</neg_value></_>
+      <_>
+        <threshold>2883</threshold>
+        <polarity>1</polarity>
+        <pos_value>8.7693825364112854e-02</pos_value>
+        <neg_value>2.1133090555667877e-01</neg_value></_>
+      <_>
+        <threshold>3331</threshold>
+        <polarity>1</polarity>
+        <pos_value>7.1077324450016022e-02</pos_value>
+        <neg_value>1.5087765455245972e-01</neg_value></_>
+      <_>
+        <threshold>1304</threshold>
+        <polarity>1</polarity>
+        <pos_value>6.0086473822593689e-02</pos_value>
+        <neg_value>9.4842448830604553e-02</neg_value></_>
+      <_>
+        <threshold>1721</threshold>
+        <polarity>1</polarity>
+        <pos_value>5.2950415760278702e-02</pos_value>
+        <neg_value>1.1181137710809708e-01</neg_value></_>
+      <_>
+        <threshold>861</threshold>
+        <polarity>1</polarity>
+        <pos_value>4.6730373054742813e-02</pos_value>
+        <neg_value>1.3713836669921875e-01</neg_value></_>
+      <_>
+        <threshold>2528</threshold>
+        <polarity>1</polarity>
+        <pos_value>4.0314979851245880e-02</pos_value>
+        <neg_value>-8.2358367741107941e-02</neg_value></_>
+      <_>
+        <threshold>1681</threshold>
+        <polarity>1</polarity>
+        <pos_value>4.0541477501392365e-02</pos_value>
+        <neg_value>1.7083275318145752e-01</neg_value></_>
+      <_>
+        <threshold>3252</threshold>
+        <polarity>1</polarity>
+        <pos_value>3.5511489957571030e-02</pos_value>
+        <neg_value>9.0574786067008972e-02</neg_value></_>
+      <_>
+        <threshold>3696</threshold>
+        <polarity>1</polarity>
+        <pos_value>3.2335944473743439e-02</pos_value>
+        <neg_value>8.4206819534301758e-02</neg_value></_>
+      <_>
+        <threshold>819</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.9589857906103134e-02</pos_value>
+        <neg_value>1.8322883173823357e-02</neg_value></_>
+      <_>
+        <threshold>2899</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.8118599206209183e-02</pos_value>
+        <neg_value>4.5081749558448792e-02</neg_value></_>
+      <_>
+        <threshold>3251</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.6357136666774750e-02</pos_value>
+        <neg_value>1.1885643936693668e-02</neg_value></_>
+      <_>
+        <threshold>2013</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.5005491450428963e-02</pos_value>
+        <neg_value>-4.2248766869306564e-02</neg_value></_>
+      <_>
+        <threshold>1979</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.4947658181190491e-02</pos_value>
+        <neg_value>1.4403730630874634e-01</neg_value></_>
+      <_>
+        <threshold>1381</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.2543836385011673e-02</pos_value>
+        <neg_value>6.4673200249671936e-02</neg_value></_>
+      <_>
+        <threshold>1853</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.1121837198734283e-02</pos_value>
+        <neg_value>2.5678034871816635e-02</neg_value></_>
+      <_>
+        <threshold>4210</threshold>
+        <polarity>1</polarity>
+        <pos_value>2.0251650363206863e-02</pos_value>
+        <neg_value>4.8990789800882339e-02</neg_value></_>
+      <_>
+        <threshold>2345</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.9203256815671921e-02</pos_value>
+        <neg_value>4.1047316044569016e-02</neg_value></_>
+      <_>
+        <threshold>5152</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.8316334113478661e-02</pos_value>
+        <neg_value>5.3496669977903366e-02</neg_value></_>
+      <_>
+        <threshold>4054</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.7379881814122200e-02</pos_value>
+        <neg_value>3.9120659232139587e-02</neg_value></_>
+      <_>
+        <threshold>3922</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.6611041501164436e-02</pos_value>
+        <neg_value>1.3559186831116676e-02</neg_value></_>
+      <_>
+        <threshold>3675</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.6109000891447067e-02</pos_value>
+        <neg_value>2.8898820281028748e-02</neg_value></_>
+      <_>
+        <threshold>3790</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.5126709826290607e-02</pos_value>
+        <neg_value>-1.6799129545688629e-01</neg_value></_>
+      <_>
+        <threshold>256</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.6134683042764664e-02</pos_value>
+        <neg_value>-1.3055542111396790e-01</neg_value></_>
+      <_>
+        <threshold>2637</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.7558829858899117e-02</pos_value>
+        <neg_value>1.7937102913856506e-01</neg_value></_>
+      <_>
+        <threshold>5596</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.5833392739295959e-02</pos_value>
+        <neg_value>9.4450064003467560e-02</neg_value></_>
+      <_>
+        <threshold>2346</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.4799119904637337e-02</pos_value>
+        <neg_value>5.0947688519954681e-02</neg_value></_>
+      <_>
+        <threshold>672</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.4104705303907394e-02</pos_value>
+        <neg_value>1.1612241156399250e-02</neg_value></_>
+      <_>
+        <threshold>2853</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.3745944015681744e-02</pos_value>
+        <neg_value>2.8354685753583908e-02</neg_value></_>
+      <_>
+        <threshold>2488</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.3269169256091118e-02</pos_value>
+        <neg_value>1.1506821960210800e-02</neg_value></_>
+      <_>
+        <threshold>2579</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.2945180758833885e-02</pos_value>
+        <neg_value>2.3817753419280052e-02</neg_value></_>
+      <_>
+        <threshold>3684</threshold>
+        <polarity>1</polarity>
+        <pos_value>1.2397116050124168e-02</pos_value>
+        <neg_value>-5.0839792937040329e-02</neg_value></_></waldboost_stumps>
+    <waldboost_thresholds>
+      -2.0852506160736084e-01 -7.8093296289443970e-01
+      -1.4947459697723389e+00 -2.0705690383911133e+00
+      -2.7470846176147461e+00 -3.3145406246185303e+00
+      -3.9072203636169434e+00 -4.5243873596191406e+00
+      -5.0794939994812012e+00 -5.5883951187133789e+00
+      -5.6204271316528320e+00 -6.3341417312622070e+00
+      -7.3039627075195312e+00 -7.9974412918090820e+00
+      -8.4752616882324219e+00 -9.0502834320068359e+00
+      -9.5528593063354492e+00 -8.5248107910156250e+00
+      -9.0879478454589844e+00 -9.5860443115234375e+00
+      -8.9179821014404297e+00 -9.8477039337158203e+00
+      -8.9093608856201172e+00 -9.3464088439941406e+00
+      -9.6273221969604492e+00 -9.9855756759643555e+00
+      -8.7832622528076172e+00 -8.5984277725219727e+00
+      -8.7995405197143555e+00 -8.7576799392700195e+00
+      -9.2403059005737305e+00 -9.4662275314331055e+00
+      -8.4635848999023438e+00 -7.8431005477905273e+00
+      -7.9584655761718750e+00 -7.9134154319763184e+00
+      -7.4804277420043945e+00 -7.3835768699645996e+00
+      -7.4102482795715332e+00 -7.1781153678894043e+00
+      -7.2913370132446289e+00 -7.0949330329895020e+00
+      -7.1415271759033203e+00 -7.4484763145446777e+00
+      -6.5172123908996582e+00 -6.3191494941711426e+00
+      -6.6793236732482910e+00 -6.4772210121154785e+00
+      -6.4827108383178711e+00 -6.4953055381774902e+00
+      -6.4093422889709473e+00 -6.4811410903930664e+00
+      -6.6930613517761230e+00 -6.5470166206359863e+00
+      -7.0409755706787109e+00 -7.1047930717468262e+00
+      -7.0300846099853516e+00 -6.8730435371398926e+00
+      -6.8118906021118164e+00 -6.8259592056274414e+00
+      -6.7679162025451660e+00 -6.8971848487854004e+00
+      -6.6313052177429199e+00 -6.4242014884948730e+00
+      -6.1886224746704102e+00 -6.1575503349304199e+00
+      -5.9443221092224121e+00 -5.8288073539733887e+00
+      -5.7411136627197266e+00 -5.6700363159179688e+00
+      -5.6099500656127930e+00 -5.5569996833801270e+00
+      -5.5102691650390625e+00 -5.4699540138244629e+00
+      -5.4294123649597168e+00 -5.3939008712768555e+00
+      -5.3615651130676270e+00 -5.3319754600524902e+00
+      -5.3038568496704102e+00 -5.2774996757507324e+00
+      -5.2524943351745605e+00 -5.2275466918945312e+00
+      -5.2050027847290039e+00 -5.1838808059692383e+00
+      -5.1636290550231934e+00 -5.1444258689880371e+00
+      -5.1261096000671387e+00 -5.1087298393249512e+00
+      -5.0921187400817871e+00 -5.0760097503662109e+00
+      -5.0608830451965332e+00 -5.0447483062744141e+00
+      -5.0271892547607422e+00 -5.0113558769226074e+00
+      -4.9965567588806152e+00 -4.9824519157409668e+00
+      -4.9687061309814453e+00 -4.9554371833801270e+00
+      -4.9424920082092285e+00 -4.9300947189331055e+00</waldboost_thresholds></waldboost>
+  <features>
+    <_>
+      1 135 1 137 6</_>
+    <_>
+      0 89 1 93 8</_>
+    <_>
+      47 133 48 133 4</_>
+    <_>
+      93 142 93 143 4</_>
+    <_>
+      38 156 38 157 4</_>
+    <_>
+      94 24 94 24 8</_>
+    <_>
+      94 154 94 154 7</_>
+    <_>
+      94 152 94 152 5</_>
+    <_>
+      88 157 88 158 5</_>
+    <_>
+      94 154 94 155 8</_>
+    <_>
+      46 156 85 158 7</_>
+    <_>
+      90 130 92 130 4</_>
+    <_>
+      38 36 55 41 2</_>
+    <_>
+      92 145 92 147 4</_>
+    <_>
+      88 158 88 158 6</_>
+    <_>
+      93 90 93 91 4</_>
+    <_>
+      94 4 94 4 3</_>
+    <_>
+      47 90 61 122 4</_>
+    <_>
+      83 158 84 158 5</_>
+    <_>
+      76 152 78 152 4</_>
+    <_>
+      94 141 94 158 4</_>
+    <_>
+      94 156 94 158 4</_>
+    <_>
+      46 152 46 152 5</_>
+    <_>
+      93 153 93 153 5</_>
+    <_>
+      75 115 75 122 4</_>
+    <_>
+      64 146 68 146 4</_>
+    <_>
+      37 103 38 157 4</_>
+    <_>
+      0 158 8 158 6</_>
+    <_>
+      94 139 94 141 3</_>
+    <_>
+      54 142 62 155 4</_>
+    <_>
+      94 150 94 154 4</_>
+    <_>
+      4 157 15 157 4</_>
+    <_>
+      91 153 93 154 4</_>
+    <_>
+      41 156 42 156 7</_>
+    <_>
+      93 118 93 118 3</_>
+    <_>
+      47 117 47 118 3</_>
+    <_>
+      93 122 94 156 4</_>
+    <_>
+      30 1 32 2 6</_>
+    <_>
+      92 156 94 156 7</_>
+    <_>
+      77 144 77 145 3</_>
+    <_>
+      80 137 83 137 4</_>
+    <_>
+      94 155 94 157 7</_>
+    <_>
+      81 154 81 157 5</_>
+    <_>
+      14 105 17 106 4</_>
+    <_>
+      0 131 6 158 5</_>
+    <_>
+      94 3 94 9 8</_>
+    <_>
+      65 154 67 154 4</_>
+    <_>
+      71 156 71 158 6</_>
+    <_>
+      72 49 79 49 4</_>
+    <_>
+      93 158 94 158 7</_>
+    <_>
+      41 86 54 116 6</_>
+    <_>
+      85 120 93 141 5</_>
+    <_>
+      91 155 91 156 5</_>
+    <_>
+      92 73 92 79 6</_>
+    <_>
+      63 152 63 154 4</_>
+    <_>
+      69 121 81 153 4</_>
+    <_>
+      94 155 94 158 3</_>
+    <_>
+      81 158 86 158 4</_>
+    <_>
+      79 157 81 157 8</_>
+    <_>
+      85 119 94 148 5</_>
+    <_>
+      56 135 89 149 4</_>
+    <_>
+      91 142 91 148 4</_>
+    <_>
+      77 157 77 158 7</_>
+    <_>
+      41 15 52 43 5</_>
+    <_>
+      32 104 69 126 4</_>
+    <_>
+      93 139 93 142 4</_>
+    <_>
+      41 97 71 117 4</_>
+    <_>
+      34 106 65 134 4</_>
+    <_>
+      26 104 68 149 4</_>
+    <_>
+      26 98 85 121 4</_>
+    <_>
+      37 102 82 115 4</_>
+    <_>
+      23 102 88 115 4</_>
+    <_>
+      42 101 61 153 4</_>
+    <_>
+      25 106 59 137 4</_>
+    <_>
+      39 94 69 147 4</_>
+    <_>
+      30 94 70 153 4</_>
+    <_>
+      9 96 79 119 4</_>
+    <_>
+      32 101 90 110 4</_>
+    <_>
+      25 103 80 125 4</_>
+    <_>
+      13 105 80 124 4</_>
+    <_>
+      36 91 58 129 4</_>
+    <_>
+      33 102 80 131 4</_>
+    <_>
+      16 102 62 120 4</_>
+    <_>
+      11 96 83 108 4</_>
+    <_>
+      5 99 85 125 4</_>
+    <_>
+      24 107 77 137 4</_>
+    <_>
+      19 96 75 154 4</_>
+    <_>
+      27 101 86 150 4</_>
+    <_>
+      29 96 94 124 4</_>
+    <_>
+      17 101 89 137 4</_>
+    <_>
+      28 94 85 113 4</_>
+    <_>
+      37 116 57 128 4</_>
+    <_>
+      37 102 90 153 4</_>
+    <_>
+      31 92 89 150 4</_>
+    <_>
+      14 93 61 131 4</_>
+    <_>
+      47 108 71 139 4</_>
+    <_>
+      39 97 89 140 4</_>
+    <_>
+      8 98 57 130 4</_>
+    <_>
+      45 96 92 131 4</_>
+    <_>
+      5 100 62 131 4</_></features></icfdetector>
+</opencv_storage>
