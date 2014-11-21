@@ -1,0 +1,5 @@
+WARNING! This file contains absolute paths for my computer only.
+
+seqIo('/media/vlad/Transcend/myfiles/data/datasets/ETH/set00/V000.seq', 'toImgs', '/media/vlad/Transcend/myfiles/data/datasets/ETH/set00-imgs/');
+seqIo('/media/vlad/Transcend/myfiles/data/datasets/ETH/set01/V000.seq', 'toImgs', '/media/vlad/Transcend/myfiles/data/datasets/ETH/set01-imgs/');
+seqIo('/media/vlad/Transcend/myfiles/data/datasets/ETH/set02/V000.seq', 'toImgs', '/media/vlad/Transcend/myfiles/data/datasets/ETH/set02-imgs/');
