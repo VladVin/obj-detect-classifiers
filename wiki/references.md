@@ -7,4 +7,5 @@
 1. [CVV Implementation of ICF Detector](https://github.com/liuliu/ccv)
 1. [Integral Channel Features](http://vision.ucsd.edu/~pdollar/files/papers/DollarBMVC09ChnFtrs.pdf)
 1. [WaldBoost – Learning for Time Constrained Sequential Detection](http://cmp.felk.cvut.cz/~matas/papers/sochman-waldboost-cvpr05.pdf)
+1. [Caltech Pedestrian Detection Benchmark](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/)
 1. [Caltech Pedestrian Dataset: Evaluated Algorithms](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/files/algorithms.pdf)
