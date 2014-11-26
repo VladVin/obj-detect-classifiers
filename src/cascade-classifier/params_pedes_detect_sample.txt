@@ -1,0 +1,3 @@
+# For my computer only!
+
+./cascade-classifier -model=/home/vlad/libs/opencv/data/haarcascades/haarcascade_fullbody.xml -image=/home/vlad/data/train_64x128_H96/test/crop001001a.png

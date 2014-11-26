@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8) 
+PROJECT (cascade-classifier)
+find_package(OpenCV REQUIRED)
+add_executable(cascade-classifier object_detection.cpp)
+target_link_libraries( cascade-classifier ${OpenCV_LIBS} )
