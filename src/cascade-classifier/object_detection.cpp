@@ -20,11 +20,11 @@ using namespace cv;
 // String window_name = "Capture - Face detection";
 
 const String keys =
-    "help h usage ? |       | print this message   }"
-    "model          |       | cascade model        }"
+    "{help h usage ? |      | print this message   }"
+    "{model          |      | cascade model        }"
+    "{image          |      | image for detection  }"
     ;
 
-/** @function main */
 int main(int argc, char* argv[])
 {
     CommandLineParser parser(argc, argv, keys);
@@ -35,12 +35,31 @@ int main(int argc, char* argv[])
     }
     
     String model = parser.get<String>("model");
+    String imageName = "None";
+    imageName = parser.get<String>("image");
 
     CascadeClassifier pedestirian_cascade;
     if (!pedestirian_cascade.load(model))
     {
         parser.printMessage();
     }
+
+    Mat img = imread(imageName);
+    CV_Assert(!imageName.empty());
+
+    std::vector<Rect> objects;
+    pedestirian_cascade.detectMultiScale(img, objects);
+
+    Mat dst;
+    img.copyTo(dst);
+    for (int i = 0; i < objects.size(); ++i)
+    {
+        rectangle(dst, objects[i], Scalar(0, 255, 0), 3);
+    }
+
+    namedWindow("Detected humans");
+    imshow("Detected humans", dst);
+    waitKey();
     
     return 0;
 }
