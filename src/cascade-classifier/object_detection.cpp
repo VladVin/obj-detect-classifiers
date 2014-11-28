@@ -9,15 +9,7 @@
 using namespace std;
 using namespace cv;
 
-/** Function Headers */
-// void detectAndDisplay( Mat frame );
-
-/** Global variables */
-// String face_cascade_name = "haarcascade_frontalface_alt.xml";
-// String eyes_cascade_name = "haarcascade_eye_tree_eyeglasses.xml";
-// CascadeClassifier face_cascade;
-// CascadeClassifier eyes_cascade;
-// String window_name = "Capture - Face detection";
+// const String m = "/home/vlad/libs/opencv/data/haarcascades/haarcascade_fullbody.xml";
 
 const String keys =
     "{help h usage ? |      | print this message   }"
@@ -34,21 +26,34 @@ int main(int argc, char* argv[])
         return 1;
     }
     
-    String model = parser.get<String>("model");
+    String model = "None";
+    model = parser.get<String>("model");
     String imageName = "None";
     imageName = parser.get<String>("image");
 
     CascadeClassifier pedestirian_cascade;
-    if (!pedestirian_cascade.load(model))
+    if (model.size() == 0 || !pedestirian_cascade.load(model))
     {
         parser.printMessage();
+        return 1;
     }
 
     Mat img = imread(imageName);
-    CV_Assert(!imageName.empty());
+    try
+    {
+        CV_Assert(!imageName.empty());
+    }
+    catch (...)
+    {
+        parser.printMessage();
+        return 1;
+    }
 
     std::vector<Rect> objects;
-    pedestirian_cascade.detectMultiScale(img, objects);
+    Mat imgGray;
+    cvtColor(img, imgGray, COLOR_RGB2GRAY);
+    equalizeHist(imgGray, imgGray);
+    pedestirian_cascade.detectMultiScale(imgGray, objects, 1.1, 2, 0, Size(20, 20));
 
     Mat dst;
     img.copyTo(dst);
