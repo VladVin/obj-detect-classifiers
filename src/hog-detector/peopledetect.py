@@ -45,17 +45,20 @@ if __name__ == '__main__':
     hog = cv2.HOGDescriptor()
     hog.setSVMDetector( cv2.HOGDescriptor_getDefaultPeopleDetector() )
 
-    for fn in it.chain(*map(glob, sys.argv[1:])):
-        print fn, ' - ',
+    import os
+    imgIndex = 0
+    imagesDir = "/home/vlad/data/INRIAPerson/Test/pos/"
+    for fname in os.listdir(imagesDir):
         try:
-            img = cv2.imread(fn)
+            img = cv2.imread(imagesDir + fname)
             if img is None:
-                print 'Failed to load image file:', fn
+                print 'Failed to load image file:', fname
                 continue
         except:
             print 'loading error'
             continue
 
+        imgIndex = imgIndex + 1
         found, w = hog.detectMultiScale(img, winStride=(8,8), padding=(32,32), scale=1.05)
         found_filtered = []
         for ri, r in enumerate(found):
@@ -66,12 +69,12 @@ if __name__ == '__main__':
                 found_filtered.append(r)
 
         # draw_detections(img, found)
-        draw_detections(img, found_filtered, 3)
-        
-        write_detections(1, found_filtered, w, '/home/vlad/projects/itlab-vision/obj-detect-classifiers/results/HOG-OpenCV/set01/V000.txt')
+        # draw_detections(img, found_filtered, 3)
+
+        write_detections(imgIndex, found_filtered, w, '/home/vlad/projects/itlab-vision/obj-detect-classifiers/results/HOG-OpenCV/set01/V000.txt')
         print '%d (%d) found' % (len(found_filtered), len(found))
-        cv2.imshow('img', img)
-        ch = 0xFF & cv2.waitKey()
-        if ch == 27:
-            break
-    cv2.destroyAllWindows()
+        # cv2.imshow('img', img)
+        # ch = 0xFF & cv2.waitKey()
+        # if ch == 27:
+        #     break
+    # cv2.destroyAllWindows()
