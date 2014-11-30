@@ -21,6 +21,19 @@ def draw_detections(img, rects, thickness = 1):
         pad_w, pad_h = int(0.15*w), int(0.05*h)
         cv2.rectangle(img, (x+pad_w, y+pad_h), (x+w-pad_w, y+h-pad_h), (0, 255, 0), thickness)
 
+def write_detections(index, rects, weights, filename, thickness = 1):
+    f = open(filename, 'a')
+    i = 0
+    for x, y, w, h in rects:
+        f.write(str(index) + ',')
+        f.write('{0:.3f},'.format(x))
+        f.write('{0:.3f},'.format(y))
+        f.write('{0:.3f},'.format(w))
+        f.write('{0:.3f},'.format(h))
+        f.write('{0:.3f}\n'.format(weights[i][0]))
+        i = i + 1
+    f.close()
+
 
 if __name__ == '__main__':
     import sys
@@ -51,8 +64,11 @@ if __name__ == '__main__':
                     break
             else:
                 found_filtered.append(r)
-        draw_detections(img, found)
+
+        # draw_detections(img, found)
         draw_detections(img, found_filtered, 3)
+        
+        write_detections(1, found_filtered, w, '/home/vlad/projects/itlab-vision/obj-detect-classifiers/results/HOG-OpenCV/set01/V000.txt')
         print '%d (%d) found' % (len(found_filtered), len(found))
         cv2.imshow('img', img)
         ch = 0xFF & cv2.waitKey()
