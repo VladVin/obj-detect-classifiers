@@ -9,3 +9,4 @@
 1. [WaldBoost – Learning for Time Constrained Sequential Detection](http://cmp.felk.cvut.cz/~matas/papers/sochman-waldboost-cvpr05.pdf)
 1. [Caltech Pedestrian Detection Benchmark](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/)
 1. [Caltech Pedestrian Dataset: Evaluated Algorithms](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/files/algorithms.pdf)
+1. [HaarTraining for Pedestrian Detection](http://vgl-ait.org/cvwiki/doku.php?id=opencv:tutorial:haartraining)
