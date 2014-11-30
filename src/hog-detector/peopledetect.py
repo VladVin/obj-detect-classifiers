@@ -73,8 +73,3 @@ if __name__ == '__main__':
 
         write_detections(imgIndex, found_filtered, w, '/home/vlad/projects/itlab-vision/obj-detect-classifiers/results/HOG-OpenCV/set01/V000.txt')
         print '%d (%d) found' % (len(found_filtered), len(found))
-        # cv2.imshow('img', img)
-        # ch = 0xFF & cv2.waitKey()
-        # if ch == 27:
-        #     break
-    # cv2.destroyAllWindows()
