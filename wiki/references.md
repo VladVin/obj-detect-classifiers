@@ -10,3 +10,4 @@
 1. [Caltech Pedestrian Detection Benchmark](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/)
 1. [Caltech Pedestrian Dataset: Evaluated Algorithms](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/files/algorithms.pdf)
 1. [HaarTraining for Pedestrian Detection](http://vgl-ait.org/cvwiki/doku.php?id=opencv:tutorial:haartraining)
+1. [Histograms of Oriented Gradients for Human Detection](http://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)
