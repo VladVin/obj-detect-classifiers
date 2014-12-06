@@ -21,6 +21,12 @@ def draw_detections(img, rects, thickness = 1):
         pad_w, pad_h = int(0.15*w), int(0.05*h)
         cv2.rectangle(img, (x+pad_w, y+pad_h), (x+w-pad_w, y+h-pad_h), (0, 255, 0), thickness)
 
+def save_detections(img, rects, filename, thickness = 1):
+    for x, y, w, h in rects:
+        pad_w, pad_h = int(0.15*w), int(0.05*h)
+        cv2.rectangle(img, (x+pad_w, y+pad_h), (x+w-pad_w, y+h-pad_h), (0, 255, 0), thickness)
+    cv2.imwrite(filename, img)
+
 def write_detections(index, rects, weights, filename, thickness = 1):
     f = open(filename, 'a')
     i = 0
@@ -70,6 +76,9 @@ if __name__ == '__main__':
 
         # draw_detections(img, found)
         # draw_detections(img, found_filtered, 3)
+        outdir = "/home/vlad/data/hog-opencv-out/"
+        save_detections(img, found_filtered, outdir + fname, 3)
 
-        write_detections(imgIndex, found_filtered, w, '/home/vlad/projects/itlab-vision/obj-detect-classifiers/results/HOG-OpenCV/set01/V000.txt')
-        print '%d (%d) found' % (len(found_filtered), len(found))
+        write_detections(imgIndex, found, w, '/home/vlad/projects/itlab-vision/obj-detect-classifiers/results/HOG-OpenCV/set01/V000.txt')
+        print '%d (%d) found. index = %d' % (len(found_filtered), len(found), imgIndex)
+    print 'finished'
