@@ -2,4 +2,4 @@ WARNING! This file contains absolute paths
 
 ./home/vlad/libs/build-opencv/bin/opencv_fcw_train --bg_path=/home/vlad/data/train_64x128_H96/neg --pos_path=/home/vlad/data/train_64x128_H96/pos --model_size=160x96 --weak_count=100 --bg_per_image=5 --model_filename=/home/vlad/projects/itlab-vision/obj-detect-classifiers/trained-classifiers/icfdetector/64x128_H96_model.xml
 
-./home/vlad/projects/itlab-vision/obj-detect-classifiers/src/build-icf-detector/icf-detector --model_filename=/home/vlad/projects/itlab-vision/obj-detect-classifiers/trained-classifiers/icfdetector/64x128_H96_model.xml --image_path=/home/vlad/data/train/pos/crop001012.png --out_image_path=/home/vlad/data/out/crop001012_out.png --min_window_size=160x96 --max_window_size=1600x960 --threshold=10.0
+./icf-detector --model_filename=/home/vlad/projects/itlab-vision/obj-detect-classifiers/trained-classifiers/icfdetector/64x128_H96_model.xml --image_path=/home/vlad/data/INRIAPerson/Test/pos/crop001501.png --out_image_path=/home/vlad/data/out/crop001501_out.png --min_window_size=160x96 --max_window_size=1600x960 --threshold=28
