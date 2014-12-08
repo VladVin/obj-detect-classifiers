@@ -7,6 +7,14 @@ using std::vector;
 #include <iostream>
 using std::cerr;
 using std::endl;
+using std::cout;
+
+#include <fstream>
+using std::ofstream;
+
+#include <dirent.h>
+
+#include <algorithm>
 
 #include <opencv2/core.hpp>
 using cv::Rect;
@@ -48,6 +56,21 @@ static Mat visualize(const Mat &image, const vector<Rect> &objects)
     }
     return img;
 }
+
+static void writeResults(const char* filename, vector<Rect>& objects, vector<float> values)
+{
+    static int imgIndex = 1;
+    ofstream f;
+    f.open(filename, ofstream::out | ofstream::app);
+    for (int i = 0; i < objects.size(); ++i)
+    {
+        f << imgIndex << "," << objects[i].x << "," << objects[i].y << ","
+            << objects[i].width << "," << objects[i].height << "," << values[i] << endl;
+    }
+    f.close();
+    imgIndex++;
+}
+
 static bool read_window_size(const char *str, int *rows, int *cols)
 {
     int pos = 0;
@@ -123,10 +146,38 @@ int main(int argc, char *argv[])
     detector.read(fs["icfdetector"]);
     fs.release();
     vector<Rect> objects;
-    Mat img = imread(image_path, color);
-    std::vector<float> values;
-    detector.detect(img, objects, 1.1f, Size(min_cols, min_rows), Size(max_cols, max_rows), threshold, step, values);
-    imwrite(out_image_path, visualize(img, objects));
-    
-    
+    DIR *dir;
+    struct dirent *ent;
+    vector<string> filenames;
+
+    const string dirname = "/home/vlad/data/INRIAPerson/Test/pos/";
+    const string dirout = "/home/vlad/data/icf-out/";
+    const string resfname = "/home/vlad/projects/itlab-vision/obj-detect-classifiers/results/ICF/set01/V000.txt";
+    if ((dir = opendir (dirname.c_str())) != NULL)
+    {
+        while ((ent = readdir (dir)) != NULL)
+        {
+            filenames.push_back(string(ent->d_name));
+        }
+        closedir (dir);
+    }
+    else
+    {
+        cout << "Couldn't open diretory." << endl;
+        return -1;
+    }
+    sort(filenames.begin(), filenames.end());
+
+    for (int i = 0; i < filenames.size(); ++i)
+    {
+        Mat img = imread(dirname + filenames[i], color);
+        cout << dirname + filenames[i] << endl;
+        if (!img.empty())
+        {
+            vector<float> values;
+            detector.detect(img, objects, 1.1f, Size(min_cols, min_rows), Size(max_cols, max_rows), threshold, step, values);
+            writeResults(resfname.c_str(), objects, values);
+            imwrite(dirout + filenames[i], visualize(img, objects));
+        }
+    }
 }
