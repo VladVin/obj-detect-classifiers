@@ -54,7 +54,11 @@ if __name__ == '__main__':
     import os
     imgIndex = 0
     imagesDir = "/home/vlad/data/INRIAPerson/Test/pos/"
+    fnames = []
     for fname in os.listdir(imagesDir):
+        fnames.append(fname)
+    fnames.sort()
+    for fname in fnames:
         try:
             img = cv2.imread(imagesDir + fname)
             if img is None:
