@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8) 
+project (icf-detector)
+find_package(OpenCV REQUIRED)
+add_executable(icf-detector icf_detect.cpp)
+target_link_libraries( icf-detector ${OpenCV_LIBS} )
